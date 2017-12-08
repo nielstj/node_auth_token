@@ -11,7 +11,7 @@ describe('auth : local', () => {
     const results = localAuth.encodeToken({id:1});
     should.exist(results);
     results.should.be.a('string');
-    done()
+    done();
   });
 });
 
